@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+       
+}
+/*****************
+ MENU NAVEGACION
+ *****************/
+.menu-fijo {
+    position: fixed;
+}
+
+.menu-todo {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 49, 49);
+}
+
+
+.logo {
+    height: 50px;
+    padding-left: 20px;
+}
+
+.menu-items {
+    margin-right: 30px;
+}
+.menu-items li {    
+    list-style: none;
+    display: inline-block;
+    
+    /* padding: 0 0px;    */
+}
+
+.menu-items a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}

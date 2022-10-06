@@ -57,6 +57,10 @@ body {
     text-decoration: none;
     margin: 0 20px;
 }
+
+nav a:hover{
+    color:#ff0000 
+}
 /*****************
  MAIN - contenido - GENERALES
  *****************/

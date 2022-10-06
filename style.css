@@ -7,6 +7,9 @@
 
 html {
     height: 100%;
+    scroll-padding-top: 72px;
+
+    
 }
 
 body {
@@ -14,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    
 }
 
 /*****************
@@ -54,10 +58,17 @@ body {
     margin: 0 20px;
 }
 /*****************
- MAIN - contenido
+ MAIN - contenido - GENERALES
  *****************/
 
+ main {
+    padding-top: 80px;
+ }
 
+h1, h2 {
+    text-align: center;
+
+}
 
 /*****************
  FOOTER - PIE-PAGINA
@@ -75,3 +86,13 @@ body {
     background-color: rgb(51, 49, 49);
     
  }
+
+ /*****************
+ INDEX CONTENIDO-MAIN
+ *****************/
+
+ 
+
+/*****************
+ PAGINA 2 CONTENIDO-MAIN
+ *****************/
